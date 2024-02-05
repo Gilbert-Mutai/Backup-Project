@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Set English locale
 export LC_TIME="en_US.UTF-8"
 
