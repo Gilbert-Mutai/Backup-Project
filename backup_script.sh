@@ -10,11 +10,14 @@ timestamp=$(date +%Y%m%d%H%M%S)
 formatted_date=$(date '+%d %B %Y %T %Z')
 
 # Create backup using tar
-tar -czf "${backup_directory}/backup_${timestamp}.tar.gz" -C "${source_director>
+tar -czf "${backup_directory}/backup_${timestamp}.tar.gz" -C "${source_director}
 
 
 # Success message
 echo "Backup script ran successfully at ${formatted_date}"
+
+
+
 
 
 
